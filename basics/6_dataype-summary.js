@@ -48,6 +48,26 @@ console.log(typeof myObj); //object
 console.log(myObj); //{ name: 'Asim', age: 18, supple: true }
 const myFunction = function fun1() {
   console.log("Hello World");
-}; 
+};
 console.log(typeof myFunction); //function
 console.log(myFunction); //[Function: fun1]
+
+/* 
+  stack (primitive), heap(non-primitive)
+*/
+
+let myYoutube = "No Channel";
+let anothername = myYoutube;
+anothername = "Mr Best";
+console.log(anothername); // Mr Best
+console.log(myYoutube); //No Channel
+
+let user = {
+  email: "user@email.com",
+  upi_id: "user@bank",
+};
+console.log(user.email); //user@email.com
+let newuser = user;
+newuser.email = "newuser@email.com";
+console.log(user.email); //newuser@email.com
+console.log(newuser.email); //newuser@email.com
