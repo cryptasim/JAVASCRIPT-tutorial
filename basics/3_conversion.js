@@ -16,3 +16,14 @@ let isLoggedin = 1;
 let isBoolean = Boolean(isLoggedin);
 console.log(typeof isBoolean); //boolean
 console.log(isBoolean); //true
+
+/*
+1 => true; 0 => false 
+" " => false 
+"Asim" => true
+*/ 
+
+let someNumber = 1136
+let stringNumber = String(someNumber)
+console.log(typeof stringNumber); //string
+console.log(stringNumber); //1136  
