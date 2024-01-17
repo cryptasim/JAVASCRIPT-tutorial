@@ -1,4 +1,3 @@
-console.log("Hello World")
 let score = 33
 console.log(typeof score)
 let value = "33"
