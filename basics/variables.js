@@ -14,4 +14,3 @@ accountCity = "new york"
 let accountState;
 console.log(accountId); 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
-console.error("this is error")
