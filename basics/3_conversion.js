@@ -26,4 +26,4 @@ console.log(isBoolean); //true
 let someNumber = 1136
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber); //string
-console.log(stringNumber); //1136  
+console.log(stringNumber); //1136 
